@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+.article__title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 66px;
+	color: #1E212C;
+}
+.article__text--main{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+}
+.article__quate{
+	padding: 48px 0px 48px 58px;
+	background: url('../img/braces.png') 0 50px/auto auto no-repeat;
+}
+.article__img{
+	margin-bottom: 60px;
+}
+ul{
+	margin: 24px 0px;
+}
+ul li{
+	padding-left: 32px;
+	margin-bottom: 4px;
+}
+li{
+	background: url('../img/Vector.png') 0 6px no-repeat;
+}
+.mb20{
+	margin-bottom: 24px;
+}
